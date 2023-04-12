@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGE HIDE AND SHOW</title>
+</head>
+<body>
+    <img id="i1" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4wwte?ver=b46a" alt="" height="200px" width="300px">
+
+    <img id="i2" src="https://www.autocar.co.uk/sites/autocar.co.uk/files/images/car-reviews/first-drives/legacy/ford-mustang-gt-2023-front-quarter-tracking_0.jpg" alt="" height="200px" width="300px" onmouseenter="raf()" onmouseleave="raw()">
+
+    <br>
+    <button onclick=" rock()">HIDE</button>
+    <button onclick="k()">SHOW</button>
+
+    <script>
+
+        i1 = document.getElementById("i1")
+
+        function rock()
+        {
+            i1.style.display="none"
+        }
+
+        function k()
+        {
+            i1.style.display="block"
+        }
+
+        i2 = document.getElementById('i2')
+
+        function raf()
+        {
+            i2.style.display="none"
+        }
+
+        function raw()
+        {
+            i2.style.display="block"
+        }
+
+    
+
+     
+
+
+    </script>
+</body>
+</html>
